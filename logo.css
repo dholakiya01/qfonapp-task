@@ -143,7 +143,7 @@ a {
     background-color: #FFC700;
     position: absolute;
     z-index: 1;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, 0%);
     left: 0;
 }
 
@@ -677,13 +677,16 @@ form button {
     }
 }
 
+@media(max-width:990px) {
+    .pad {
+        padding-top: 0;
+    }
+}
+
 
 /* meadia-size 768px */
 
 @media(max-width:850px) {
-    .main1 {
-        width: inherit;
-    }
     .yello-in {
         text-align: center;
         padding: 100px 25px;
@@ -751,6 +754,36 @@ form button {
     .scene h2 {
         text-align: center;
     }
+    .icon1 {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        background-color: #FFC700;
+        position: absolute;
+        z-index: 1;
+        transform: translate(-50%, 0%);
+        left: 0;
+    }
+    .icon1 img {
+        position: absolute;
+        transform: translate(25%, 25%);
+        width: 65%;
+    }
+    .icon2 {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        background-color: #FFC700;
+        position: absolute;
+        z-index: 1;
+        transform: translate(50%, 10%);
+        right: 0;
+    }
+    .icon2 img {
+        position: absolute;
+        transform: translate(25%, 25%);
+        width: 65%;
+    }
 }
 
 
@@ -772,16 +805,21 @@ form button {
 
 @media(max-width:600px) {
     .yello-in {
-        padding: 40px;
+        padding: 16px;
     }
     .yello-in h2 {
-        font-size: 25px;
+        font-size: 45px;
     }
     .yello-in p {
-        font-size: 15px;
+        font-size: 20px;
+    }
+    .yello-in button {
+        font-size: 11px;
+        text-align: center;
+        padding: 6px;
     }
     .banner img {
-        height: 300px;
+        /* height: 300px; */
         object-fit: cover;
     }
     .we {
@@ -798,6 +836,9 @@ form button {
     }
     .gray-box {
         display: none;
+    }
+    .blog h2 {
+        text-align: center;
     }
     .icon1 {
         width: 50px;
@@ -847,7 +888,7 @@ form button {
     }
     .form-in {
         text-align: center;
-        padding: 0;
+        padding: 25px;
     }
     .form-in h2 {
         font-size: 36px;
@@ -918,11 +959,11 @@ form button {
 }
 
 
-/* 950px  */
+/* 1000px  */
 
-@media(max-width:950px) {
+@media(max-width:1000px) {
     .yello-in {
-        padding: 100px 0;
+        padding: 100px 30px;
         text-align: center;
     }
 }
