@@ -892,7 +892,7 @@
     
     @media(max-width:500px) {
         .yello-in {
-            padding: 0;
+            padding: 70px 40px;
         }
         .banner img {
             display: none;
