@@ -666,7 +666,6 @@
             padding: 100px 30px;
             text-align: center;
         }
-        .yello-in h2 {}
         .we {
             margin-top: 30px;
         }
@@ -892,7 +891,7 @@
     
     @media(max-width:500px) {
         .yello-in {
-            padding: 0;
+            padding: 70px 40px;
         }
         .banner img {
             display: none;
